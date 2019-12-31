@@ -1,0 +1,5 @@
+{
+    "tableName": "AmplifyCalendarDynamoDB",
+    "partitionKeyName": "Name",
+    "partitionKeyType": "S"
+}

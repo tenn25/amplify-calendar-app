@@ -1,0 +1,41 @@
+{
+    "paths": [
+        {
+            "name": "/events",
+            "lambdaFunction": "AmplifyCalendarLambda",
+            "privacy": {
+                "private": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "AmplifyCalendarAPI",
+    "apiName": "AmplifyCalendarAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "AmplifyCalendarLambda"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 0,
+        "authRoleName": "amplify-calendar-app-dev-121623-authRole",
+        "unAuthRoleName": "amplify-calendar-app-dev-121623-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "AmplifyCalendarLambda",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
