@@ -16,6 +16,9 @@
                 "cognitof766d102": {
                     "hostedUIProviderCreds": "[]"
                 }
+            },
+            "function": {
+                "AmplifyCalendarLambda": {}
             }
         }
     }

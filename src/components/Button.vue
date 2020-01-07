@@ -11,7 +11,7 @@ button {
   border-radius: 2px;
   padding: 0 24px;
   cursor: pointer;
- 
+
   &:hover {
     background-color: blue;
     color: white;
