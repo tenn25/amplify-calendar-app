@@ -43,5 +43,13 @@
             "UnauthRole",
             "Arn"
         ]
-    }
+    },
+    "hostedUI": true,
+    "useDefault": "defaultSocial",
+    "hostedUIDomainName": "calendar-app-auth",
+    "authProvidersUserPool": [],
+    "hostedUIProviderMeta": "[]",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://192.168.0.172:8080/\"],\"LogoutURLs\":[\"https://192.168.0.172:8080/\"]}",
+    "userPoolGroupList": [],
+    "dependsOn": []
 }
